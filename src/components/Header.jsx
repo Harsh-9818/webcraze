@@ -29,7 +29,7 @@ function Header() {
       <div className="hidden md:flex flex-1 justify-left pl-20 text-gray-400 gap-10 text-sm font-base">
         <Link to="/">Home</Link>
         <Link to="product">Products</Link>
-        {/* <Link to="product">Contact</Link> */}
+        <Link to="work">Contact</Link>
 
 
         {/* <Link to="socials">Socials</Link> */}
@@ -75,9 +75,9 @@ function Header() {
           {/* <Link to="socials" onClick={() => setIsMenuOpen(false)}>
             Socials
           </Link> */}
-          {/* <Link to="contact" onClick={() => setIsMenuOpen(false)}>
+          <Link to="contact" onClick={() => setIsMenuOpen(false)}>
             Contact
-          </Link> */}
+          </Link>
         </div>
       )}
     </div>
