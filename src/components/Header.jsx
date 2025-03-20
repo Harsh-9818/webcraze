@@ -75,7 +75,7 @@ function Header() {
           {/* <Link to="socials" onClick={() => setIsMenuOpen(false)}>
             Socials
           </Link> */}
-          <Link to="contact" onClick={() => setIsMenuOpen(false)}>
+          <Link to="work" onClick={() => setIsMenuOpen(false)}>
             Contact
           </Link>
         </div>
