@@ -66,10 +66,10 @@ function Header() {
             &times;
           </button>
 
-          <Link to="home" onClick={() => setIsMenuOpen(false)}>
+          <Link to="/" onClick={() => setIsMenuOpen(false)}>
             Home
           </Link>
-          <Link to="about" onClick={() => setIsMenuOpen(false)}>
+          <Link to="product" onClick={() => setIsMenuOpen(false)}>
             About
           </Link>
           {/* <Link to="socials" onClick={() => setIsMenuOpen(false)}>
